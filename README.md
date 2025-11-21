@@ -15,48 +15,91 @@ A full-stack web application for automated liver tumor detection and 3D visualiz
 
 
 liver-tumor-analysis/
+
 ├── 📁 Model/
+
 │   ├── model.ipynb            #Main file where we trained model
+
 │   ├── best_unetplusplus2.pth    # Pre-trained U-Net model
+
 ├── 📁 backend/
+
 │   ├── app.py                    # Main Flask application
+
 │   ├── best_unetplusplus2.pth    # Pre-trained U-Net model
+
 │   ├── requirements.txt          # Python dependencies
+
 │   ├── profile                   # Deployment configuration
+
 │   ├── vercel.json              # Vercel deployment config
+
 │   ├── tiny_prediction.png      # Sample output image
+
 │   ├── package.json             # Node.js dependencies
+
 │   ├── package-lock.json        # Lock file for Node.js
+
 │   ├── .env                     # Environment variables
+
 │   ├── 📁 uploads/              # Temporary file storage
+
 │   └── 📁 node_modules/         # Node.js packages
+
 │
+
 └── 📁 frontend/
+
     ├── 📁 src/
+
     │   ├── App.jsx              # Main React component
+
     │   ├── main.jsx             # React entry point
+
     │   ├── Home.jsx             # Landing page
+
     │   ├── Form.jsx             # CT scan upload form
+
     │   ├── Results.jsx          # Results dashboard
+
     │   ├── Hero.jsx             # Hero section
+
     │   ├── Navbar.jsx           # Navigation component
+
     │   ├── Benefits.jsx         # Features section
+
     │   ├── Steps.jsx            # How it works
+
     │   ├── Footer.jsx           # Footer component
+
     │   ├── Notfound.jsx         # 404 page
+
     │   ├── App.css              # Application styles
+
     │   ├── index.css            # Global styles
+
     │   └── 📁 assets/           # Static assets
+
     │       ├── an.json          # Animation data
+
     │       └── notfound.json    # 404 animation data
+
     ├── index.html               # HTML template
+
     ├── package.json             # Frontend dependencies
+
     ├── package-lock.json        # Lock file
+
     ├── vite.config.js           # Vite configuration
+
     ├── eslint.config.js         # ESLint configuration
+
     ├── .gitignore               # Git ignore rules
+
     └── 📁 node_modules/         # Node.js packages
+
 ├── 📁 3d_views/
+
 │   It contain 3 axial views of a single prediction(these are just examples)
 
 ├── overlay.webp

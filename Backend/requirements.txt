@@ -1,0 +1,11 @@
+flask
+flask-cors
+nibabel
+numpy
+torch
+opencv-python
+pillow
+pymongo
+requests
+gunicorn
+matplotlib
